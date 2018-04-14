@@ -29,7 +29,7 @@
 							"raw": "{\r\n  \"JobTmp_Idx\": 1,\r\n  \"ContIndex\": 2,\r\n  \"ServIndex\": \"sample string 3\",\r\n  \"Partner\": 4,\r\n  \"Manager\": 5,\r\n  \"InCharge\": 6,\r\n  \"Value\": 7.0,\r\n  \"PeriodStart\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"PeriodEnd\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"FiscalYear\": 10,\r\n  \"JobName\": \"sample string 11\",\r\n  \"Staff\": 12,\r\n  \"AddService\": true,\r\n  \"JobCode\": \"sample string 14\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/CreateTemplateJob",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/CreateTemplateJob",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -65,7 +65,7 @@
 							"raw": "{\r\n  \"Client\": 52170,\r\n  \"Statuses\": \"0,1,2,3\",\r\n  \"Staff\": 0\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/Lookup",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/Lookup",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -101,7 +101,7 @@
 							"raw": "{\r\n  \"Client\": 52170,\r\n  \"Staff\": 0\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/LookupForTimeEntry",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/LookupForTimeEntry",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -134,7 +134,7 @@
 						],
 						"body": {},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetJobsForClient/52170",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetJobsForClient/52170",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -168,7 +168,7 @@
 						],
 						"body": {},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GridColumns/52121",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GridColumns/52121",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -205,7 +205,7 @@
 							"raw": "{\r\n  \"ContIndex\": 56805,\r\n  \"Status\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"Search\": \"sample string 2\",\r\n  \"StaffIndex\": 3,\r\n  \"Skip\": 4,\r\n  \"Take\": 5,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/ClientGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/ClientGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -241,7 +241,7 @@
 							"raw": "{\r\n  \"ContIndex\": 56805,\r\n  \"Status\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"Search\": \"sample string 2\",\r\n  \"StaffIndex\": 3,\r\n  \"Skip\": 4,\r\n  \"Take\": 5,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/StaffGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/StaffGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -277,7 +277,7 @@
 							"raw": "{\r\n  \"Search\": \"sample string 1\",\r\n  \"StaffIndex\": 2,\r\n  \"Skip\": 3,\r\n  \"Take\": 4,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/PickupGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/PickupGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -313,7 +313,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"ClientCode\": \"sample string 2\",\r\n  \"ClientName\": \"sample string 3\",\r\n  \"ClientShortCode\": \"sample string 4\",\r\n  \"ClientGroup\": \"sample string 5\",\r\n  \"ServTitle\": \"sample string 6\",\r\n  \"JobTypeDescription\": \"sample string 7\",\r\n  \"Job_Name\": \"sample string 8\",\r\n  \"PartnerName\": \"sample string 9\",\r\n  \"ManagerName\": \"sample string 10\",\r\n  \"InChargeName\": \"sample string 11\",\r\n  \"Job_Recurring\": true,\r\n  \"StatusDescription\": \"sample string 12\",\r\n  \"WorkStatusDesc\": \"sample string 13\",\r\n  \"Complexity\": \"sample string 14\",\r\n  \"Job_Created\": \"2018-04-09T09:48:47.3462028-06:00\",\r\n  \"Job_Period_Start\": \"2018-04-09\",\r\n  \"Job_Period_End\": \"2018-04-09\",\r\n  \"Job_Finish_Target\": \"2018-04-09\",\r\n  \"CurrentDueDate\": \"2018-04-09\",\r\n  \"Job_DateAssigned\": \"2018-04-09\",\r\n  \"Job_DateAccepted\": \"2018-04-09\",\r\n  \"NextActionDate\": \"2018-04-09\",\r\n  \"Job_Code\": \"sample string 15\",\r\n  \"SpeciesDescription\": \"sample string 16\",\r\n  \"CurrentStaffName\": \"sample string 17\",\r\n  \"TypeDesc\": \"sample string 18\",\r\n  \"ReturnYear\": 1,\r\n  \"Job_Office\": \"sample string 19\",\r\n  \"Job_Value\": 1.0,\r\n  \"Job_Budget_Hours\": 1.0,\r\n  \"Job_Budget_Value\": 1.0,\r\n  \"ActualHours\": 1.0,\r\n  \"ActualWIP\": 1.0,\r\n  \"BilledWIP\": 1.0,\r\n  \"WoffWIP\": 1.0,\r\n  \"RollStatus\": \"sample string 20\",\r\n  \"RackDesc\": \"sample string 21\",\r\n  \"Job_Species\": 22,\r\n  \"Job_Class\": \"sample string 23\",\r\n  \"ClassDescription\": \"sample string 24\",\r\n  \"RowCss\": \"sample string 25\",\r\n  \"Custom1\": \"sample string 26\",\r\n  \"Custom2\": \"sample string 27\",\r\n  \"Custom3\": \"sample string 28\",\r\n  \"Custom4\": \"sample string 29\",\r\n  \"Custom5\": \"sample string 30\",\r\n  \"Custom6\": \"sample string 31\",\r\n  \"Custom7\": \"sample string 32\",\r\n  \"Custom8\": \"sample string 33\",\r\n  \"Custom9\": \"sample string 34\",\r\n  \"Custom10\": \"sample string 35\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SetJobOwnership",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SetJobOwnership",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -349,7 +349,7 @@
 							"raw": "{\r\n  \"StaffIndex\": 1,\r\n  \"Status\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"Search\": \"sample string 2\",\r\n  \"StartDate\": \"2018-04-09\",\r\n  \"EndDate\": \"2018-04-09\",\r\n  \"Skip\": 5,\r\n  \"Take\": 6,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/StandardGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/StandardGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -385,7 +385,7 @@
 							"raw": "{\r\n  \"StaffIndex\": 1,\r\n  \"Status\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"Search\": \"sample string 2\",\r\n  \"StartDate\": \"2018-04-09\",\r\n  \"EndDate\": \"2018-04-09\",\r\n  \"Skip\": 5,\r\n  \"Take\": 6,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/TaxGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/TaxGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -421,7 +421,7 @@
 							"raw": "{\r\n  \"StaffIndex\": 1,\r\n  \"Status\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"Search\": \"sample string 2\",\r\n  \"StartDate\": \"2018-04-09\",\r\n  \"EndDate\": \"2018-04-09\",\r\n  \"Skip\": 5,\r\n  \"Take\": 6,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetDetails/213808",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetDetails/213808",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -458,7 +458,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"ContIndex\": 2,\r\n  \"Job_PreviousJob\": 1,\r\n  \"Job_CurrentStaff\": 3,\r\n  \"Job_Name\": \"sample string 4\",\r\n  \"Job_Code\": \"sample string 5\",\r\n  \"Job_Class\": \"sample string 6\",\r\n  \"Job_Status\": 7,\r\n  \"Job_WorkStatus\": 8,\r\n  \"Job_Office\": \"sample string 9\",\r\n  \"Job_Dept\": \"sample string 10\",\r\n  \"Job_MasterFile\": \"sample string 11\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveDetails",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveDetails",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -494,7 +494,7 @@
 							"raw": "{\r\n  \"ContIndex\": 1,\r\n  \"Job_Idx\": 1,\r\n  \"JobCode\": \"sample string 1\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/ValidateJobCode",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/ValidateJobCode",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -530,7 +530,7 @@
 							"raw": "{\r\n  \"ContIndex\": 1,\r\n  \"Job_Idx\": 1,\r\n  \"JobName\": \"sample string 1\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/ValidateJobName",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/ValidateJobName",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -566,7 +566,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetStaffOnJob/213698",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetStaffOnJob/213698",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -603,7 +603,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 213698,\r\n  \"ToStaffIndex\": 56631,\r\n  \"Notes\": \"API Test - Forward a job to another staff\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/ForwardJob",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/ForwardJob",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -639,7 +639,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"WorkStatus\": 2\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/UpdateWorkStatus",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/UpdateWorkStatus",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -675,7 +675,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetJurisdictions/0",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetJurisdictions/0",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -712,7 +712,7 @@
 							"raw": "{\r\n  \"ExcludeJuris\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"Page\": 1,\r\n  \"PageSize\": 2,\r\n  \"Search\": \"sample string 3\",\r\n  \"OrderBy\": \"sample string 4\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/FindJurisdictions",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/FindJurisdictions",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -748,7 +748,7 @@
 							"raw": "{\r\n  \"Panel\": {\r\n    \"Job_Idx\": 1,\r\n    \"BaseDate\": \"2018-04-09\",\r\n    \"ReturnYear\": 3,\r\n    \"TypeIndex\": 4,\r\n    \"EFileStatus\": \"sample string 5\"\r\n  },\r\n  \"Calculations\": [\r\n    {\r\n      \"TypeIndex\": 1,\r\n      \"JurisIndex\": 2,\r\n      \"StartMonth\": 64,\r\n      \"StartDay\": 64,\r\n      \"CompleteMonth\": 64,\r\n      \"CompleteDay\": 64,\r\n      \"DueMonth\": 64,\r\n      \"DueDay\": 64,\r\n      \"Exten1Month\": 64,\r\n      \"Exten1Day\": 64,\r\n      \"Exten2Month\": 64,\r\n      \"Exten2Day\": 64,\r\n      \"DateBase\": 64,\r\n      \"RowVer\": \"QEA=\"\r\n    },\r\n    {\r\n      \"TypeIndex\": 1,\r\n      \"JurisIndex\": 2,\r\n      \"StartMonth\": 64,\r\n      \"StartDay\": 64,\r\n      \"CompleteMonth\": 64,\r\n      \"CompleteDay\": 64,\r\n      \"DueMonth\": 64,\r\n      \"DueDay\": 64,\r\n      \"Exten1Month\": 64,\r\n      \"Exten1Day\": 64,\r\n      \"Exten2Month\": 64,\r\n      \"Exten2Day\": 64,\r\n      \"DateBase\": 64,\r\n      \"RowVer\": \"QEA=\"\r\n    }\r\n  ],\r\n  \"Jurisdictions\": [\r\n    {\r\n      \"Job_Idx\": 1,\r\n      \"JurisIndex\": 2,\r\n      \"DueDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"ExtendedDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"ExtendedDate2\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"CurrentDueDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"StatusIndex\": 3,\r\n      \"ExtendedCount\": 64,\r\n      \"IsLate\": true,\r\n      \"IsComplete\": true,\r\n      \"RowVer\": \"QEA=\",\r\n      \"JurisName\": \"sample string 7\"\r\n    },\r\n    {\r\n      \"Job_Idx\": 1,\r\n      \"JurisIndex\": 2,\r\n      \"DueDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"ExtendedDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"ExtendedDate2\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"CurrentDueDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"StatusIndex\": 3,\r\n      \"ExtendedCount\": 64,\r\n      \"IsLate\": true,\r\n      \"IsComplete\": true,\r\n      \"RowVer\": \"QEA=\",\r\n      \"JurisName\": \"sample string 7\"\r\n    }\r\n  ],\r\n  \"DeletedJurisdictions\": [\r\n    {\r\n      \"Job_Idx\": 1,\r\n      \"JurisIndex\": 2,\r\n      \"DueDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"ExtendedDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"ExtendedDate2\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"CurrentDueDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"StatusIndex\": 3,\r\n      \"ExtendedCount\": 64,\r\n      \"IsLate\": true,\r\n      \"IsComplete\": true,\r\n      \"RowVer\": \"QEA=\",\r\n      \"JurisName\": \"sample string 7\"\r\n    },\r\n    {\r\n      \"Job_Idx\": 1,\r\n      \"JurisIndex\": 2,\r\n      \"DueDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"ExtendedDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"ExtendedDate2\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"CurrentDueDate\": \"2018-04-09T10:11:10.6846292-06:00\",\r\n      \"StatusIndex\": 3,\r\n      \"ExtendedCount\": 64,\r\n      \"IsLate\": true,\r\n      \"IsComplete\": true,\r\n      \"RowVer\": \"QEA=\",\r\n      \"JurisName\": \"sample string 7\"\r\n    }\r\n  ],\r\n  \"Statuses\": [\r\n    {\r\n      \"StatusIndex\": 1,\r\n      \"StatusDesc\": \"sample string 2\",\r\n      \"StatusAbbr\": \"sample string 3\",\r\n      \"StatusExtn\": 4,\r\n      \"RowVer\": \"QEA=\"\r\n    },\r\n    {\r\n      \"StatusIndex\": 1,\r\n      \"StatusDesc\": \"sample string 2\",\r\n      \"StatusAbbr\": \"sample string 3\",\r\n      \"StatusExtn\": 4,\r\n      \"RowVer\": \"QEA=\"\r\n    }\r\n  ]\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveJurisdictions",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveJurisdictions",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -784,7 +784,7 @@
 							"raw": "{\r\n  \"TaxReturnType\": 1,\r\n  \"JurisIndex\": 2\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetCalculationsFor",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetCalculationsFor",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -820,7 +820,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetManagement/213808",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetManagement/213808",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -857,7 +857,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"Job_NextJob\": 1,\r\n  \"Job_Partner\": 2,\r\n  \"Job_Manager\": 3,\r\n  \"Job_InCharge\": 4,\r\n  \"Job_Value\": 5.0,\r\n  \"Job_Complexity\": 64,\r\n  \"Job_StaffingType\": 64,\r\n  \"Job_LimitTimeEntry\": true,\r\n  \"Job_ETCRequired\": true,\r\n  \"Job_Frequency\": 64,\r\n  \"Job_Recurring\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveManagement",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveManagement",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -893,7 +893,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetBilling/213808",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetBilling/213808",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -930,7 +930,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"ContIndex\": 1,\r\n  \"Job_FeeNarrative\": \"sample string 2\",\r\n  \"Job_Attention\": \"sample string 3\",\r\n  \"Job_AddressCode\": \"sample string 4\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveBillingDetails",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveBillingDetails",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -966,7 +966,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetBudgets/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetBudgets/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1003,7 +1003,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetBudgetImportValues/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetBudgetImportValues/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1040,7 +1040,7 @@
 							"raw": "{\r\n  \"Panel\": {\r\n    \"Job_Idx\": 1,\r\n    \"ContIndex\": 1,\r\n    \"Job_Species\": 64,\r\n    \"Job_BudgetLevel\": 64,\r\n    \"Job_BudgetDetail\": 64,\r\n    \"Job_BudgetEntry\": 64,\r\n    \"Job_BudgetPerc\": 6.0,\r\n    \"Job_BudgetSync\": true,\r\n    \"Job_Budget_Hours\": 8.0,\r\n    \"Job_Budget_Value\": 9.0,\r\n    \"Job_PreviousJob\": 10,\r\n    \"Job_ETCRequired\": true\r\n  },\r\n  \"Budgets\": [\r\n    {\r\n      \"JobB_Hours\": 1.0,\r\n      \"JobB_ETC\": 2.0,\r\n      \"JobB_Value\": 3.0,\r\n      \"RoleIndex\": 1,\r\n      \"TaskIndex\": 1,\r\n      \"StaffIndex\": 1,\r\n      \"JobB_Date\": \"2018-04-09\"\r\n    },\r\n    {\r\n      \"JobB_Hours\": 1.0,\r\n      \"JobB_ETC\": 2.0,\r\n      \"JobB_Value\": 3.0,\r\n      \"RoleIndex\": 1,\r\n      \"TaskIndex\": 1,\r\n      \"StaffIndex\": 1,\r\n      \"JobB_Date\": \"2018-04-09\"\r\n    }\r\n  ]\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveBudgets",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveBudgets",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1076,7 +1076,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetDates/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetDates/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1113,7 +1113,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"Job_Period_Start\": \"2018-04-09\",\r\n  \"Job_Period_End\": \"2018-04-09\",\r\n  \"Job_Start_Target\": \"2018-04-09\",\r\n  \"Job_Start_Actual\": \"2018-04-09\",\r\n  \"Job_Start_Deadline\": \"2018-04-09\",\r\n  \"Job_Finish_Target\": \"2018-04-09\",\r\n  \"Job_Finish_Actual\": \"2018-04-09\",\r\n  \"Job_Finish_Deadline\": \"2018-04-09\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveDates",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveDates",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1149,7 +1149,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetRoles/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetRoles/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1186,7 +1186,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"RoleTypes\": [\r\n    {\r\n      \"RoleIndex\": 1,\r\n      \"RoleName\": \"sample string 2\",\r\n      \"RoleLevel\": 64,\r\n      \"RoleMulti\": true,\r\n      \"GradeIndex\": 5,\r\n      \"Created\": \"2018-04-09T10:28:25.1500917-06:00\",\r\n      \"CreatedBy\": 7,\r\n      \"Updated\": \"2018-04-09T10:28:25.1500917-06:00\",\r\n      \"UpdatedBy\": 9,\r\n      \"RowVer\": \"QEA=\"\r\n    },\r\n    {\r\n      \"RoleIndex\": 1,\r\n      \"RoleName\": \"sample string 2\",\r\n      \"RoleLevel\": 64,\r\n      \"RoleMulti\": true,\r\n      \"GradeIndex\": 5,\r\n      \"Created\": \"2018-04-09T10:28:25.1500917-06:00\",\r\n      \"CreatedBy\": 7,\r\n      \"Updated\": \"2018-04-09T10:28:25.1500917-06:00\",\r\n      \"UpdatedBy\": 9,\r\n      \"RowVer\": \"QEA=\"\r\n    }\r\n  ],\r\n  \"Roles\": [\r\n    {\r\n      \"JRIndex\": 1,\r\n      \"StaffIndex\": 2,\r\n      \"RoleIndex\": 3,\r\n      \"Staff\": [\r\n        {\r\n          \"StaffIndex\": 1,\r\n          \"StaffName\": \"sample string 2\",\r\n          \"StaffReference\": \"sample string 3\",\r\n          \"StaffCode\": \"sample string 4\",\r\n          \"StaffSurname\": \"sample string 5\",\r\n          \"StaffExtension\": \"sample string 6\",\r\n          \"StaffClientResponsible\": true,\r\n          \"StaffManager\": true,\r\n          \"StaffCategory\": \"sample string 9\",\r\n          \"StaffJobTitle\": \"sample string 10\",\r\n          \"StaffDepartment\": \"sample string 11\",\r\n          \"StaffUser\": \"sample string 12\",\r\n          \"StaffStarted\": \"2018-04-09\",\r\n          \"StaffEnded\": \"2018-04-09\",\r\n          \"StaffAutoPostTime\": true,\r\n          \"StaffRequireApproval\": true\r\n        },\r\n        {\r\n          \"StaffIndex\": 1,\r\n          \"StaffName\": \"sample string 2\",\r\n          \"StaffReference\": \"sample string 3\",\r\n          \"StaffCode\": \"sample string 4\",\r\n          \"StaffSurname\": \"sample string 5\",\r\n          \"StaffExtension\": \"sample string 6\",\r\n          \"StaffClientResponsible\": true,\r\n          \"StaffManager\": true,\r\n          \"StaffCategory\": \"sample string 9\",\r\n          \"StaffJobTitle\": \"sample string 10\",\r\n          \"StaffDepartment\": \"sample string 11\",\r\n          \"StaffUser\": \"sample string 12\",\r\n          \"StaffStarted\": \"2018-04-09\",\r\n          \"StaffEnded\": \"2018-04-09\",\r\n          \"StaffAutoPostTime\": true,\r\n          \"StaffRequireApproval\": true\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"JRIndex\": 1,\r\n      \"StaffIndex\": 2,\r\n      \"RoleIndex\": 3,\r\n      \"Staff\": [\r\n        {\r\n          \"StaffIndex\": 1,\r\n          \"StaffName\": \"sample string 2\",\r\n          \"StaffReference\": \"sample string 3\",\r\n          \"StaffCode\": \"sample string 4\",\r\n          \"StaffSurname\": \"sample string 5\",\r\n          \"StaffExtension\": \"sample string 6\",\r\n          \"StaffClientResponsible\": true,\r\n          \"StaffManager\": true,\r\n          \"StaffCategory\": \"sample string 9\",\r\n          \"StaffJobTitle\": \"sample string 10\",\r\n          \"StaffDepartment\": \"sample string 11\",\r\n          \"StaffUser\": \"sample string 12\",\r\n          \"StaffStarted\": \"2018-04-09\",\r\n          \"StaffEnded\": \"2018-04-09\",\r\n          \"StaffAutoPostTime\": true,\r\n          \"StaffRequireApproval\": true\r\n        },\r\n        {\r\n          \"StaffIndex\": 1,\r\n          \"StaffName\": \"sample string 2\",\r\n          \"StaffReference\": \"sample string 3\",\r\n          \"StaffCode\": \"sample string 4\",\r\n          \"StaffSurname\": \"sample string 5\",\r\n          \"StaffExtension\": \"sample string 6\",\r\n          \"StaffClientResponsible\": true,\r\n          \"StaffManager\": true,\r\n          \"StaffCategory\": \"sample string 9\",\r\n          \"StaffJobTitle\": \"sample string 10\",\r\n          \"StaffDepartment\": \"sample string 11\",\r\n          \"StaffUser\": \"sample string 12\",\r\n          \"StaffStarted\": \"2018-04-09\",\r\n          \"StaffEnded\": \"2018-04-09\",\r\n          \"StaffAutoPostTime\": true,\r\n          \"StaffRequireApproval\": true\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"DeletedRoles\": [\r\n    {\r\n      \"JRIndex\": 1,\r\n      \"StaffIndex\": 2,\r\n      \"RoleIndex\": 3,\r\n      \"Staff\": [\r\n        {\r\n          \"StaffIndex\": 1,\r\n          \"StaffName\": \"sample string 2\",\r\n          \"StaffReference\": \"sample string 3\",\r\n          \"StaffCode\": \"sample string 4\",\r\n          \"StaffSurname\": \"sample string 5\",\r\n          \"StaffExtension\": \"sample string 6\",\r\n          \"StaffClientResponsible\": true,\r\n          \"StaffManager\": true,\r\n          \"StaffCategory\": \"sample string 9\",\r\n          \"StaffJobTitle\": \"sample string 10\",\r\n          \"StaffDepartment\": \"sample string 11\",\r\n          \"StaffUser\": \"sample string 12\",\r\n          \"StaffStarted\": \"2018-04-09\",\r\n          \"StaffEnded\": \"2018-04-09\",\r\n          \"StaffAutoPostTime\": true,\r\n          \"StaffRequireApproval\": true\r\n        },\r\n        {\r\n          \"StaffIndex\": 1,\r\n          \"StaffName\": \"sample string 2\",\r\n          \"StaffReference\": \"sample string 3\",\r\n          \"StaffCode\": \"sample string 4\",\r\n          \"StaffSurname\": \"sample string 5\",\r\n          \"StaffExtension\": \"sample string 6\",\r\n          \"StaffClientResponsible\": true,\r\n          \"StaffManager\": true,\r\n          \"StaffCategory\": \"sample string 9\",\r\n          \"StaffJobTitle\": \"sample string 10\",\r\n          \"StaffDepartment\": \"sample string 11\",\r\n          \"StaffUser\": \"sample string 12\",\r\n          \"StaffStarted\": \"2018-04-09\",\r\n          \"StaffEnded\": \"2018-04-09\",\r\n          \"StaffAutoPostTime\": true,\r\n          \"StaffRequireApproval\": true\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"JRIndex\": 1,\r\n      \"StaffIndex\": 2,\r\n      \"RoleIndex\": 3,\r\n      \"Staff\": [\r\n        {\r\n          \"StaffIndex\": 1,\r\n          \"StaffName\": \"sample string 2\",\r\n          \"StaffReference\": \"sample string 3\",\r\n          \"StaffCode\": \"sample string 4\",\r\n          \"StaffSurname\": \"sample string 5\",\r\n          \"StaffExtension\": \"sample string 6\",\r\n          \"StaffClientResponsible\": true,\r\n          \"StaffManager\": true,\r\n          \"StaffCategory\": \"sample string 9\",\r\n          \"StaffJobTitle\": \"sample string 10\",\r\n          \"StaffDepartment\": \"sample string 11\",\r\n          \"StaffUser\": \"sample string 12\",\r\n          \"StaffStarted\": \"2018-04-09\",\r\n          \"StaffEnded\": \"2018-04-09\",\r\n          \"StaffAutoPostTime\": true,\r\n          \"StaffRequireApproval\": true\r\n        },\r\n        {\r\n          \"StaffIndex\": 1,\r\n          \"StaffName\": \"sample string 2\",\r\n          \"StaffReference\": \"sample string 3\",\r\n          \"StaffCode\": \"sample string 4\",\r\n          \"StaffSurname\": \"sample string 5\",\r\n          \"StaffExtension\": \"sample string 6\",\r\n          \"StaffClientResponsible\": true,\r\n          \"StaffManager\": true,\r\n          \"StaffCategory\": \"sample string 9\",\r\n          \"StaffJobTitle\": \"sample string 10\",\r\n          \"StaffDepartment\": \"sample string 11\",\r\n          \"StaffUser\": \"sample string 12\",\r\n          \"StaffStarted\": \"2018-04-09\",\r\n          \"StaffEnded\": \"2018-04-09\",\r\n          \"StaffAutoPostTime\": true,\r\n          \"StaffRequireApproval\": true\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveRoles",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveRoles",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1222,7 +1222,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"KeepStaffing\": true,\r\n  \"CreateBudget\": true,\r\n  \"ScheduleOption\": 4\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/RollJob",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/RollJob",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1258,7 +1258,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetTasks/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetTasks/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1295,7 +1295,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"Tasks\": [\r\n    {\r\n      \"TaskIndex\": 1,\r\n      \"JobIdx\": 2,\r\n      \"TaskIdx\": 3,\r\n      \"Task_Ordinal\": 4,\r\n      \"Task_Subject\": \"sample string 5\",\r\n      \"Task_Code\": \"sample string 6\",\r\n      \"Task_Notes\": \"sample string 7\",\r\n      \"Task_Parent\": 1,\r\n      \"Task_Predecessor\": 1,\r\n      \"Task_Staff\": 8,\r\n      \"TaskStaff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      },\r\n      \"Task_Role\": 1,\r\n      \"Task_Status\": 64,\r\n      \"Task_OnHold\": true,\r\n      \"Task_Action_Complete\": 64,\r\n      \"Task_Action_Due\": 64,\r\n      \"Task_Action_Medium\": 64,\r\n      \"Task_Activity\": \"sample string 14\",\r\n      \"Task_Importance\": 64,\r\n      \"Task_BudgetHours\": 16.0,\r\n      \"Task_BudgetCost\": 17.0,\r\n      \"Task_Duration\": 18.0,\r\n      \"Task_Value\": 19.0,\r\n      \"Task_Due_Period\": 64,\r\n      \"Task_Due_Interval\": 21,\r\n      \"Task_Due_From\": 64,\r\n      \"Task_Date_Due\": \"2018-04-09\",\r\n      \"Task_Date_Due_Fixed\": true,\r\n      \"Task_Start_Target\": \"2018-04-09\",\r\n      \"Task_Date_Started\": \"2018-04-09\",\r\n      \"Task_Date_Completed\": \"2018-04-09\",\r\n      \"Task_Scheduled\": true,\r\n      \"Task_EstToComp\": 25.0,\r\n      \"Task_ActualHours\": 1.0\r\n    },\r\n    {\r\n      \"TaskIndex\": 1,\r\n      \"JobIdx\": 2,\r\n      \"TaskIdx\": 3,\r\n      \"Task_Ordinal\": 4,\r\n      \"Task_Subject\": \"sample string 5\",\r\n      \"Task_Code\": \"sample string 6\",\r\n      \"Task_Notes\": \"sample string 7\",\r\n      \"Task_Parent\": 1,\r\n      \"Task_Predecessor\": 1,\r\n      \"Task_Staff\": 8,\r\n      \"TaskStaff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      },\r\n      \"Task_Role\": 1,\r\n      \"Task_Status\": 64,\r\n      \"Task_OnHold\": true,\r\n      \"Task_Action_Complete\": 64,\r\n      \"Task_Action_Due\": 64,\r\n      \"Task_Action_Medium\": 64,\r\n      \"Task_Activity\": \"sample string 14\",\r\n      \"Task_Importance\": 64,\r\n      \"Task_BudgetHours\": 16.0,\r\n      \"Task_BudgetCost\": 17.0,\r\n      \"Task_Duration\": 18.0,\r\n      \"Task_Value\": 19.0,\r\n      \"Task_Due_Period\": 64,\r\n      \"Task_Due_Interval\": 21,\r\n      \"Task_Due_From\": 64,\r\n      \"Task_Date_Due\": \"2018-04-09\",\r\n      \"Task_Date_Due_Fixed\": true,\r\n      \"Task_Start_Target\": \"2018-04-09\",\r\n      \"Task_Date_Started\": \"2018-04-09\",\r\n      \"Task_Date_Completed\": \"2018-04-09\",\r\n      \"Task_Scheduled\": true,\r\n      \"Task_EstToComp\": 25.0,\r\n      \"Task_ActualHours\": 1.0\r\n    }\r\n  ],\r\n  \"DeletedTasks\": [\r\n    {\r\n      \"TaskIndex\": 1,\r\n      \"JobIdx\": 2,\r\n      \"TaskIdx\": 3,\r\n      \"Task_Ordinal\": 4,\r\n      \"Task_Subject\": \"sample string 5\",\r\n      \"Task_Code\": \"sample string 6\",\r\n      \"Task_Notes\": \"sample string 7\",\r\n      \"Task_Parent\": 1,\r\n      \"Task_Predecessor\": 1,\r\n      \"Task_Staff\": 8,\r\n      \"TaskStaff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      },\r\n      \"Task_Role\": 1,\r\n      \"Task_Status\": 64,\r\n      \"Task_OnHold\": true,\r\n      \"Task_Action_Complete\": 64,\r\n      \"Task_Action_Due\": 64,\r\n      \"Task_Action_Medium\": 64,\r\n      \"Task_Activity\": \"sample string 14\",\r\n      \"Task_Importance\": 64,\r\n      \"Task_BudgetHours\": 16.0,\r\n      \"Task_BudgetCost\": 17.0,\r\n      \"Task_Duration\": 18.0,\r\n      \"Task_Value\": 19.0,\r\n      \"Task_Due_Period\": 64,\r\n      \"Task_Due_Interval\": 21,\r\n      \"Task_Due_From\": 64,\r\n      \"Task_Date_Due\": \"2018-04-09\",\r\n      \"Task_Date_Due_Fixed\": true,\r\n      \"Task_Start_Target\": \"2018-04-09\",\r\n      \"Task_Date_Started\": \"2018-04-09\",\r\n      \"Task_Date_Completed\": \"2018-04-09\",\r\n      \"Task_Scheduled\": true,\r\n      \"Task_EstToComp\": 25.0,\r\n      \"Task_ActualHours\": 1.0\r\n    },\r\n    {\r\n      \"TaskIndex\": 1,\r\n      \"JobIdx\": 2,\r\n      \"TaskIdx\": 3,\r\n      \"Task_Ordinal\": 4,\r\n      \"Task_Subject\": \"sample string 5\",\r\n      \"Task_Code\": \"sample string 6\",\r\n      \"Task_Notes\": \"sample string 7\",\r\n      \"Task_Parent\": 1,\r\n      \"Task_Predecessor\": 1,\r\n      \"Task_Staff\": 8,\r\n      \"TaskStaff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      },\r\n      \"Task_Role\": 1,\r\n      \"Task_Status\": 64,\r\n      \"Task_OnHold\": true,\r\n      \"Task_Action_Complete\": 64,\r\n      \"Task_Action_Due\": 64,\r\n      \"Task_Action_Medium\": 64,\r\n      \"Task_Activity\": \"sample string 14\",\r\n      \"Task_Importance\": 64,\r\n      \"Task_BudgetHours\": 16.0,\r\n      \"Task_BudgetCost\": 17.0,\r\n      \"Task_Duration\": 18.0,\r\n      \"Task_Value\": 19.0,\r\n      \"Task_Due_Period\": 64,\r\n      \"Task_Due_Interval\": 21,\r\n      \"Task_Due_From\": 64,\r\n      \"Task_Date_Due\": \"2018-04-09\",\r\n      \"Task_Date_Due_Fixed\": true,\r\n      \"Task_Start_Target\": \"2018-04-09\",\r\n      \"Task_Date_Started\": \"2018-04-09\",\r\n      \"Task_Date_Completed\": \"2018-04-09\",\r\n      \"Task_Scheduled\": true,\r\n      \"Task_EstToComp\": 25.0,\r\n      \"Task_ActualHours\": 1.0\r\n    }\r\n  ],\r\n  \"Roles\": [\r\n    {\r\n      \"JRIndex\": 1,\r\n      \"Job_Idx\": 2,\r\n      \"StaffIndex\": 3,\r\n      \"RoleIndex\": 4,\r\n      \"Created\": \"2018-04-09T10:30:43.7461969-06:00\",\r\n      \"CreatedBy\": 6,\r\n      \"Updated\": \"2018-04-09T10:30:43.7461969-06:00\",\r\n      \"UpdatedBy\": 8,\r\n      \"RowVer\": \"QEA=\"\r\n    },\r\n    {\r\n      \"JRIndex\": 1,\r\n      \"Job_Idx\": 2,\r\n      \"StaffIndex\": 3,\r\n      \"RoleIndex\": 4,\r\n      \"Created\": \"2018-04-09T10:30:43.7461969-06:00\",\r\n      \"CreatedBy\": 6,\r\n      \"Updated\": \"2018-04-09T10:30:43.7461969-06:00\",\r\n      \"UpdatedBy\": 8,\r\n      \"RowVer\": \"QEA=\"\r\n    }\r\n  ],\r\n  \"ChargeCodes\": [\r\n    {\r\n      \"ChargeIndex\": 1,\r\n      \"ChargeCode\": \"sample string 2\",\r\n      \"ChargeName\": \"sample string 3\",\r\n      \"ChargeType\": \"sample string 4\",\r\n      \"ChargeCategory\": \"sample string 5\",\r\n      \"ChargeClass\": \"sample string 6\",\r\n      \"ChargeRecoverable\": true,\r\n      \"ChargeDisbUnit\": true,\r\n      \"ChargeScale\": 9,\r\n      \"ChargeNominalWIP\": 1,\r\n      \"ChargeNominalFee\": 1,\r\n      \"ChargeNominalWoff\": 1,\r\n      \"ChargeVATRate\": \"sample string 10\",\r\n      \"ChargeExtender\": 11,\r\n      \"ChargeUpdated\": \"2018-04-09T10:30:43.7461969-06:00\",\r\n      \"ChargeUpdatedBy\": \"sample string 13\",\r\n      \"RowVer\": \"QEA=\"\r\n    },\r\n    {\r\n      \"ChargeIndex\": 1,\r\n      \"ChargeCode\": \"sample string 2\",\r\n      \"ChargeName\": \"sample string 3\",\r\n      \"ChargeType\": \"sample string 4\",\r\n      \"ChargeCategory\": \"sample string 5\",\r\n      \"ChargeClass\": \"sample string 6\",\r\n      \"ChargeRecoverable\": true,\r\n      \"ChargeDisbUnit\": true,\r\n      \"ChargeScale\": 9,\r\n      \"ChargeNominalWIP\": 1,\r\n      \"ChargeNominalFee\": 1,\r\n      \"ChargeNominalWoff\": 1,\r\n      \"ChargeVATRate\": \"sample string 10\",\r\n      \"ChargeExtender\": 11,\r\n      \"ChargeUpdated\": \"2018-04-09T10:30:43.7461969-06:00\",\r\n      \"ChargeUpdatedBy\": \"sample string 13\",\r\n      \"RowVer\": \"QEA=\"\r\n    }\r\n  ]\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveTasks",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveTasks",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1331,7 +1331,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetQuestionnaires/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetQuestionnaires/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1368,7 +1368,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetDocuments/{job_idx}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetDocuments/{job_idx}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1405,7 +1405,7 @@
 							"raw": "{\r\n  \"JobDocumentID\": 1,\r\n  \"Job_Idx\": 1,\r\n  \"DocumentDate\": \"2018-04-09T10:33:17.0957467-06:00\",\r\n  \"DocumentDesc\": \"sample string 3\",\r\n  \"File\": {\r\n    \"DownloadId\": \"51e2f582-e0c5-4209-acaf-291d8c333a00\",\r\n    \"Thumbnail\": \"sample string 1\",\r\n    \"DataUri\": \"sample string 2\",\r\n    \"FileName\": \"sample string 3\",\r\n    \"ContentType\": \"sample string 4\"\r\n  }\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveDocument",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveDocument",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1441,7 +1441,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/DeleteDocument/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/DeleteDocument/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1478,7 +1478,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetMasterTaskList",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetMasterTaskList",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1514,7 +1514,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetJobName/213806",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetJobName/213806",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1551,7 +1551,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetTasksAndRole/213806",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetTasksAndRole/213806",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1588,7 +1588,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetJobRates/213806",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetJobRates/213806",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1625,7 +1625,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"Job_RateType\": 64,\r\n  \"Job_RateValue\": 3.0,\r\n  \"Rates\": [\r\n    {\r\n      \"JobRate\": {\r\n        \"JobRateIdx\": 1,\r\n        \"Job_Idx\": 2,\r\n        \"StaffIndex\": 3,\r\n        \"GradeIndex\": 4,\r\n        \"ChargeRate\": 5.0,\r\n        \"Updated\": \"2018-04-09T10:40:24.5270579-06:00\",\r\n        \"UpdatedBy\": 7,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Grade\": {\r\n        \"GradeIndex\": 1,\r\n        \"GradeCode\": \"sample string 2\",\r\n        \"GradeDesc\": \"sample string 3\",\r\n        \"GradePartner\": true,\r\n        \"GradeRate\": 5.0,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Staff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      }\r\n    },\r\n    {\r\n      \"JobRate\": {\r\n        \"JobRateIdx\": 1,\r\n        \"Job_Idx\": 2,\r\n        \"StaffIndex\": 3,\r\n        \"GradeIndex\": 4,\r\n        \"ChargeRate\": 5.0,\r\n        \"Updated\": \"2018-04-09T10:40:24.5270579-06:00\",\r\n        \"UpdatedBy\": 7,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Grade\": {\r\n        \"GradeIndex\": 1,\r\n        \"GradeCode\": \"sample string 2\",\r\n        \"GradeDesc\": \"sample string 3\",\r\n        \"GradePartner\": true,\r\n        \"GradeRate\": 5.0,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Staff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      }\r\n    }\r\n  ],\r\n  \"DeletedRates\": [\r\n    {\r\n      \"JobRate\": {\r\n        \"JobRateIdx\": 1,\r\n        \"Job_Idx\": 2,\r\n        \"StaffIndex\": 3,\r\n        \"GradeIndex\": 4,\r\n        \"ChargeRate\": 5.0,\r\n        \"Updated\": \"2018-04-09T10:40:24.5270579-06:00\",\r\n        \"UpdatedBy\": 7,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Grade\": {\r\n        \"GradeIndex\": 1,\r\n        \"GradeCode\": \"sample string 2\",\r\n        \"GradeDesc\": \"sample string 3\",\r\n        \"GradePartner\": true,\r\n        \"GradeRate\": 5.0,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Staff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      }\r\n    },\r\n    {\r\n      \"JobRate\": {\r\n        \"JobRateIdx\": 1,\r\n        \"Job_Idx\": 2,\r\n        \"StaffIndex\": 3,\r\n        \"GradeIndex\": 4,\r\n        \"ChargeRate\": 5.0,\r\n        \"Updated\": \"2018-04-09T10:40:24.5270579-06:00\",\r\n        \"UpdatedBy\": 7,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Grade\": {\r\n        \"GradeIndex\": 1,\r\n        \"GradeCode\": \"sample string 2\",\r\n        \"GradeDesc\": \"sample string 3\",\r\n        \"GradePartner\": true,\r\n        \"GradeRate\": 5.0,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Staff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      }\r\n    }\r\n  ],\r\n  \"AllGrades\": [\r\n    {\r\n      \"GradeIndex\": 1,\r\n      \"GradeCode\": \"sample string 2\",\r\n      \"GradeDesc\": \"sample string 3\",\r\n      \"GradePartner\": true,\r\n      \"GradeRate\": 5.0,\r\n      \"RowVer\": \"QEA=\"\r\n    },\r\n    {\r\n      \"GradeIndex\": 1,\r\n      \"GradeCode\": \"sample string 2\",\r\n      \"GradeDesc\": \"sample string 3\",\r\n      \"GradePartner\": true,\r\n      \"GradeRate\": 5.0,\r\n      \"RowVer\": \"QEA=\"\r\n    }\r\n  ]\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveJobRates",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveJobRates",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1661,7 +1661,7 @@
 							"raw": "{\r\n  \"ViewOption\": 1,\r\n  \"StaffIndex\": 56631\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/ETCGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/ETCGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1697,7 +1697,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetETCForJob/{job_idx}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetETCForJob/{job_idx}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1734,7 +1734,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveETCForJob",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveETCForJob",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1770,7 +1770,7 @@
 							"raw": "[\r\n  {\r\n    \"JobB_Idx\": 1,\r\n    \"JobIdx\": 2,\r\n    \"TaskIndex\": 3,\r\n    \"RoleIndex\": 4,\r\n    \"ETC\": 5.0\r\n  },\r\n  {\r\n    \"JobB_Idx\": 1,\r\n    \"JobIdx\": 2,\r\n    \"TaskIndex\": 3,\r\n    \"RoleIndex\": 4,\r\n    \"ETC\": 5.0\r\n  }\r\n]"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveETCForJob",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveETCForJob",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1806,7 +1806,7 @@
 							"raw": "[\r\n  {\r\n    \"JobB_Idx\": 1,\r\n    \"JobIdx\": 2,\r\n    \"TaskIndex\": 3,\r\n    \"RoleIndex\": 4,\r\n    \"ETC\": 5.0\r\n  },\r\n  {\r\n    \"JobB_Idx\": 1,\r\n    \"JobIdx\": 2,\r\n    \"TaskIndex\": 3,\r\n    \"RoleIndex\": 4,\r\n    \"ETC\": 5.0\r\n  }\r\n]"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/SaveETCForJob",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/SaveETCForJob",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1842,7 +1842,7 @@
 							"raw": "[\r\n  {\r\n    \"JobB_Idx\": 1,\r\n    \"JobIdx\": 2,\r\n    \"TaskIndex\": 3,\r\n    \"RoleIndex\": 4,\r\n    \"ETC\": 5.0\r\n  },\r\n  {\r\n    \"JobB_Idx\": 1,\r\n    \"JobIdx\": 2,\r\n    \"TaskIndex\": 3,\r\n    \"RoleIndex\": 4,\r\n    \"ETC\": 5.0\r\n  }\r\n]"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetTemplateList/899990",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetTemplateList/899990",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1879,7 +1879,7 @@
 							"raw": "{\r\n  \"ContIndex\": 1,\r\n  \"ServIndex\": \"sample string 2\",\r\n  \"Partner\": 3,\r\n  \"Manager\": 4,\r\n  \"InCharge\": 5,\r\n  \"Value\": 6.0,\r\n  \"PeriodStart\": \"2018-04-09T11:21:44.887798-06:00\",\r\n  \"PeriodEnd\": \"2018-04-09T11:21:44.887798-06:00\",\r\n  \"FiscalYear\": 9,\r\n  \"JobName\": \"sample string 10\",\r\n  \"JobCode\": \"sample string 11\",\r\n  \"TaxType\": 12,\r\n  \"Job_Species\": 13,\r\n  \"Job_Recurring\": true,\r\n  \"Job_Frequency\": 15,\r\n  \"Staff\": 16\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/CreateManualJob",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/CreateManualJob",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1915,7 +1915,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/DeleteJob/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/DeleteJob/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1952,7 +1952,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetHistory/213794",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetHistory/213794",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -1989,7 +1989,7 @@
 							"raw": "{\r\n  \"JobNote_Idx\": 1,\r\n  \"Job_Idx\": 2,\r\n  \"NoteDate\": \"2018-04-09T13:46:48.126251-06:00\",\r\n  \"NoteStaff\": 4,\r\n  \"NoteText\": \"sample string 5\",\r\n  \"NoteComplete\": true,\r\n  \"NoteShare\": true,\r\n  \"RowVer\": \"QEA=\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/AddNote",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/AddNote",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2025,7 +2025,7 @@
 							"raw": "{\n\t\"note\": \"note text\"\n\t\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/UpdateNoteText/{note_idx}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/UpdateNoteText/{note_idx}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2062,7 +2062,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/DeleteNote/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/DeleteNote/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2099,7 +2099,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/BillInfo/{job_idx}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/BillInfo/{job_idx}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2136,7 +2136,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"BillType\": 2,\r\n  \"BillAmount\": 3.0\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/CreateBill",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/CreateBill",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2172,7 +2172,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"BillType\": 2,\r\n  \"BillAmount\": 3.0\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetActiveServices/{contindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetActiveServices/{contindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2209,7 +2209,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetNextJobCode/{contindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetNextJobCode/{contindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2246,7 +2246,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetReturnTypes",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetReturnTypes",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2282,7 +2282,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetTaskName/{taskindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetTaskName/{taskindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2319,7 +2319,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetServiceList",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetServiceList",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2355,7 +2355,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetJobTrackClients/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetJobTrackClients/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2392,7 +2392,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetJobTrackStatuses/AUDCOMP",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetJobTrackStatuses/AUDCOMP",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2429,7 +2429,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/GetJobTrackDates/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/GetJobTrackDates/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2466,7 +2466,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/PendingAcceptance",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/PendingAcceptance",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2502,7 +2502,7 @@
 							"raw": "{\r\n  \"Jobs\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"Reason\": \"sample string 1\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/AcceptJobs",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/AcceptJobs",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2538,7 +2538,7 @@
 							"raw": "{\r\n  \"Jobs\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"Reason\": \"sample string 1\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Jobs/RejectJobs",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Jobs/RejectJobs",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2580,7 +2580,7 @@
 							"raw": "{\r\n  \"Job_Idx\": 1,\r\n  \"Job_RateType\": 64,\r\n  \"Job_RateValue\": 3.0,\r\n  \"Rates\": [\r\n    {\r\n      \"JobRate\": {\r\n        \"JobRateIdx\": 1,\r\n        \"Job_Idx\": 2,\r\n        \"StaffIndex\": 3,\r\n        \"GradeIndex\": 4,\r\n        \"ChargeRate\": 5.0,\r\n        \"Updated\": \"2018-04-09T10:40:24.5270579-06:00\",\r\n        \"UpdatedBy\": 7,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Grade\": {\r\n        \"GradeIndex\": 1,\r\n        \"GradeCode\": \"sample string 2\",\r\n        \"GradeDesc\": \"sample string 3\",\r\n        \"GradePartner\": true,\r\n        \"GradeRate\": 5.0,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Staff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      }\r\n    },\r\n    {\r\n      \"JobRate\": {\r\n        \"JobRateIdx\": 1,\r\n        \"Job_Idx\": 2,\r\n        \"StaffIndex\": 3,\r\n        \"GradeIndex\": 4,\r\n        \"ChargeRate\": 5.0,\r\n        \"Updated\": \"2018-04-09T10:40:24.5270579-06:00\",\r\n        \"UpdatedBy\": 7,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Grade\": {\r\n        \"GradeIndex\": 1,\r\n        \"GradeCode\": \"sample string 2\",\r\n        \"GradeDesc\": \"sample string 3\",\r\n        \"GradePartner\": true,\r\n        \"GradeRate\": 5.0,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Staff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      }\r\n    }\r\n  ],\r\n  \"DeletedRates\": [\r\n    {\r\n      \"JobRate\": {\r\n        \"JobRateIdx\": 1,\r\n        \"Job_Idx\": 2,\r\n        \"StaffIndex\": 3,\r\n        \"GradeIndex\": 4,\r\n        \"ChargeRate\": 5.0,\r\n        \"Updated\": \"2018-04-09T10:40:24.5270579-06:00\",\r\n        \"UpdatedBy\": 7,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Grade\": {\r\n        \"GradeIndex\": 1,\r\n        \"GradeCode\": \"sample string 2\",\r\n        \"GradeDesc\": \"sample string 3\",\r\n        \"GradePartner\": true,\r\n        \"GradeRate\": 5.0,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Staff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      }\r\n    },\r\n    {\r\n      \"JobRate\": {\r\n        \"JobRateIdx\": 1,\r\n        \"Job_Idx\": 2,\r\n        \"StaffIndex\": 3,\r\n        \"GradeIndex\": 4,\r\n        \"ChargeRate\": 5.0,\r\n        \"Updated\": \"2018-04-09T10:40:24.5270579-06:00\",\r\n        \"UpdatedBy\": 7,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Grade\": {\r\n        \"GradeIndex\": 1,\r\n        \"GradeCode\": \"sample string 2\",\r\n        \"GradeDesc\": \"sample string 3\",\r\n        \"GradePartner\": true,\r\n        \"GradeRate\": 5.0,\r\n        \"RowVer\": \"QEA=\"\r\n      },\r\n      \"Staff\": {\r\n        \"StaffIndex\": 1,\r\n        \"StaffName\": \"sample string 2\",\r\n        \"StaffReference\": \"sample string 3\",\r\n        \"StaffCode\": \"sample string 4\",\r\n        \"StaffSurname\": \"sample string 5\",\r\n        \"StaffExtension\": \"sample string 6\",\r\n        \"StaffClientResponsible\": true,\r\n        \"StaffManager\": true,\r\n        \"StaffCategory\": \"sample string 9\",\r\n        \"StaffJobTitle\": \"sample string 10\",\r\n        \"StaffDepartment\": \"sample string 11\",\r\n        \"StaffUser\": \"sample string 12\",\r\n        \"StaffStarted\": \"2018-04-09\",\r\n        \"StaffEnded\": \"2018-04-09\",\r\n        \"StaffAutoPostTime\": true,\r\n        \"StaffRequireApproval\": true\r\n      }\r\n    }\r\n  ],\r\n  \"AllGrades\": [\r\n    {\r\n      \"GradeIndex\": 1,\r\n      \"GradeCode\": \"sample string 2\",\r\n      \"GradeDesc\": \"sample string 3\",\r\n      \"GradePartner\": true,\r\n      \"GradeRate\": 5.0,\r\n      \"RowVer\": \"QEA=\"\r\n    },\r\n    {\r\n      \"GradeIndex\": 1,\r\n      \"GradeCode\": \"sample string 2\",\r\n      \"GradeDesc\": \"sample string 3\",\r\n      \"GradePartner\": true,\r\n      \"GradeRate\": 5.0,\r\n      \"RowVer\": \"QEA=\"\r\n    }\r\n  ]\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/WhoIs/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/WhoIs/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2617,7 +2617,7 @@
 							"raw": "\"9999-34\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/WhoIsByCode",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/WhoIsByCode",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2653,7 +2653,7 @@
 							"raw": "\"9999-34\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/Lookup",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/Lookup",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2689,7 +2689,7 @@
 							"raw": "\"9999-34\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/LookupWithInternal",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/LookupWithInternal",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2725,7 +2725,7 @@
 							"raw": "\"9999-34\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/LookupInternal",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/LookupInternal",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2761,7 +2761,7 @@
 							"raw": "{\r\n  \"Page\": 1,\r\n  \"PageSize\": 2,\r\n  \"Search\": \"sample string 3\",\r\n  \"OrderBy\": \"sample string 4\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/Find",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/Find",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2797,7 +2797,7 @@
 							"raw": "{\r\n  \"Page\": 1,\r\n  \"PageSize\": 2,\r\n  \"Search\": \"sample string 3\",\r\n  \"OrderBy\": \"sample string 4\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/GridColumns/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/GridColumns/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2834,7 +2834,7 @@
 							"raw": "{\r\n  \"Search\": \"sample string 1\",\r\n  \"Skip\": 2,\r\n  \"Take\": 3,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/SimpleGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/SimpleGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2870,7 +2870,7 @@
 							"raw": "{\r\n  \"Search\": \"sample string 1\",\r\n  \"Skip\": 2,\r\n  \"Take\": 3,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/ExtendedGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/ExtendedGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2906,7 +2906,7 @@
 							"raw": "{\r\n  \"Search\": \"sample string 1\",\r\n  \"Skip\": 2,\r\n  \"Take\": 3,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/Clients/ReferenceGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/Clients/ReferenceGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2948,7 +2948,7 @@
 							"raw": "{\r\n  \"JobTmp_Idx\": 1,\r\n  \"ContIndex\": 2,\r\n  \"ServIndex\": \"sample string 3\",\r\n  \"Partner\": 4,\r\n  \"Manager\": 5,\r\n  \"InCharge\": 6,\r\n  \"Value\": 7.0,\r\n  \"PeriodStart\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"PeriodEnd\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"FiscalYear\": 10,\r\n  \"JobName\": \"sample string 11\",\r\n  \"Staff\": 12,\r\n  \"AddService\": true,\r\n  \"JobCode\": \"sample string 14\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/CreateClaimForMe",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/CreateClaimForMe",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -2984,7 +2984,7 @@
 							"raw": "{\r\n  \"JobTmp_Idx\": 1,\r\n  \"ContIndex\": 2,\r\n  \"ServIndex\": \"sample string 3\",\r\n  \"Partner\": 4,\r\n  \"Manager\": 5,\r\n  \"InCharge\": 6,\r\n  \"Value\": 7.0,\r\n  \"PeriodStart\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"PeriodEnd\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"FiscalYear\": 10,\r\n  \"JobName\": \"sample string 11\",\r\n  \"Staff\": 12,\r\n  \"AddService\": true,\r\n  \"JobCode\": \"sample string 14\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/CreateClaim/{staffindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/CreateClaim/{staffindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3021,7 +3021,7 @@
 							"raw": "{\r\n  \"JobTmp_Idx\": 1,\r\n  \"ContIndex\": 2,\r\n  \"ServIndex\": \"sample string 3\",\r\n  \"Partner\": 4,\r\n  \"Manager\": 5,\r\n  \"InCharge\": 6,\r\n  \"Value\": 7.0,\r\n  \"PeriodStart\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"PeriodEnd\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"FiscalYear\": 10,\r\n  \"JobName\": \"sample string 11\",\r\n  \"Staff\": 12,\r\n  \"AddService\": true,\r\n  \"JobCode\": \"sample string 14\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/GetClaim/{claimindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/GetClaim/{claimindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3058,7 +3058,7 @@
 							"raw": "{\r\n  \"JobTmp_Idx\": 1,\r\n  \"ContIndex\": 2,\r\n  \"ServIndex\": \"sample string 3\",\r\n  \"Partner\": 4,\r\n  \"Manager\": 5,\r\n  \"InCharge\": 6,\r\n  \"Value\": 7.0,\r\n  \"PeriodStart\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"PeriodEnd\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"FiscalYear\": 10,\r\n  \"JobName\": \"sample string 11\",\r\n  \"Staff\": 12,\r\n  \"AddService\": true,\r\n  \"JobCode\": \"sample string 14\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/SaveClaim",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/SaveClaim",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3094,7 +3094,7 @@
 							"raw": "{\r\n  \"JobTmp_Idx\": 1,\r\n  \"ContIndex\": 2,\r\n  \"ServIndex\": \"sample string 3\",\r\n  \"Partner\": 4,\r\n  \"Manager\": 5,\r\n  \"InCharge\": 6,\r\n  \"Value\": 7.0,\r\n  \"PeriodStart\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"PeriodEnd\": \"2018-04-09T11:20:29.2646978-06:00\",\r\n  \"FiscalYear\": 10,\r\n  \"JobName\": \"sample string 11\",\r\n  \"Staff\": 12,\r\n  \"AddService\": true,\r\n  \"JobCode\": \"sample string 14\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/ValidateClaim/{claimindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/ValidateClaim/{claimindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3131,7 +3131,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/SubmitClaim/{claimindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/SubmitClaim/{claimindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3168,7 +3168,7 @@
 							"raw": "{\r\n  \"ExpIndex\": 1,\r\n  \"DeleteReceipts\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/AbandonClaim",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/AbandonClaim",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3204,7 +3204,7 @@
 							"raw": "{\r\n  \"ExpIndex\": 1,\r\n  \"DeleteReceipts\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/ApproveClaim/{claimindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/ApproveClaim/{claimindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3241,7 +3241,7 @@
 							"raw": "{\r\n  \"ExpIndex\": 1,\r\n  \"DeleteReceipts\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/RejectClaim/{claimindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/RejectClaim/{claimindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3278,7 +3278,7 @@
 							"raw": "{\r\n  \"ExpIndex\": 1,\r\n  \"DeleteReceipts\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/EditClaim/{claimindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/EditClaim/{claimindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3315,7 +3315,7 @@
 							"raw": "{\r\n  \"IDs\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"postDate\": 1\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/ExpenseClaim/PostExpense",
+							"raw": "https://[PESERVERADDRESS]/PE/api/ExpenseClaim/PostExpense",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3357,7 +3357,7 @@
 							"raw": "\"amoore\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/Lookup",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/Lookup",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3393,7 +3393,7 @@
 							"raw": "\"Bond\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/PartnerLookup",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/PartnerLookup",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3429,7 +3429,7 @@
 							"raw": "\"Squier\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/ManagerLookup",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/ManagerLookup",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3465,7 +3465,7 @@
 							"raw": "\"Squier\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/LookupActiveOthersForExpenses",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/LookupActiveOthersForExpenses",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3501,7 +3501,7 @@
 							"raw": "\"Squier\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/LookupActiveOthersForTimesheets",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/LookupActiveOthersForTimesheets",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3537,7 +3537,7 @@
 							"raw": "\"Squier\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/LookupWithInactive",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/LookupWithInactive",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3573,7 +3573,7 @@
 							"raw": "\"Squier\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/PartnerLookupWithInactive",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/PartnerLookupWithInactive",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3609,7 +3609,7 @@
 							"raw": "\"Squier\""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/ManagerLookupWithInactive",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/ManagerLookupWithInactive",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3645,7 +3645,7 @@
 							"raw": "{\r\n  \"Page\": 1,\r\n  \"PageSize\": 2,\r\n  \"Search\": \"Squire\",\r\n  \"OrderBy\": \"StaffName\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/Find",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/Find",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3681,7 +3681,7 @@
 							"raw": "{\r\n  \"Page\": 1,\r\n  \"PageSize\": 2,\r\n  \"Search\": \"Squire\",\r\n  \"OrderBy\": \"StaffName\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/PartnerFind",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/PartnerFind",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3717,7 +3717,7 @@
 							"raw": "{\r\n  \"Page\": 1,\r\n  \"PageSize\": 2,\r\n  \"Search\": \"Squire\",\r\n  \"OrderBy\": \"StaffName\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/ManagerFind",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/ManagerFind",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3753,7 +3753,7 @@
 							"raw": "{\r\n  \"Page\": 1,\r\n  \"PageSize\": 2,\r\n  \"Search\": \"Squire\",\r\n  \"OrderBy\": \"StaffName\"\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/Me",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/Me",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3789,7 +3789,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/WhoIs/{staffindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/WhoIs/{staffindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3826,7 +3826,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/LoadOOFData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/LoadOOFData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3862,7 +3862,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/SaveOOFData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/SaveOOFData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3898,7 +3898,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/GridColumns/{staffindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/GridColumns/{staffindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3935,7 +3935,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/GridReference",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/GridReference",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -3971,7 +3971,7 @@
 							"raw": "{\r\n  \"Search\": \"sample string 1\",\r\n  \"Skip\": 2,\r\n  \"Take\": 3,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/SimpleGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/SimpleGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4007,7 +4007,7 @@
 							"raw": "{\r\n  \"Code\": \"sample string 1\",\r\n  \"Name\": \"sample string 2\",\r\n  \"Surname\": \"sample string 3\",\r\n  \"Department\": \"sample string 4\",\r\n  \"SubDepartment\": \"sample string 5\",\r\n  \"Office\": \"sample string 6\",\r\n  \"Organisation\": 1,\r\n  \"User\": \"sample string 7\",\r\n  \"EMail\": \"sample string 8\",\r\n  \"Grade\": \"sample string 9\",\r\n  \"Status\": \"sample string 10\",\r\n  \"Skip\": 11,\r\n  \"Take\": 12,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/ExtendedGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/ExtendedGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4043,7 +4043,7 @@
 							"raw": "{\r\n  \"Skip\": 1,\r\n  \"Take\": 2,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/LockupGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/LockupGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4079,7 +4079,7 @@
 							"raw": "{\r\n  \"Skip\": 1,\r\n  \"Take\": 2,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/LockupServiceGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/LockupServiceGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4115,7 +4115,7 @@
 							"raw": "{\r\n  \"Skip\": 1,\r\n  \"Take\": 2,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/StaffMember/LockupJobGridData",
+							"raw": "https://[PESERVERADDRESS]/PE/api/StaffMember/LockupJobGridData",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4157,7 +4157,7 @@
 							"raw": "{\r\n  \"Skip\": 1,\r\n  \"Take\": 2,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/CreateBatch",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/CreateBatch",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4193,7 +4193,7 @@
 							"raw": "{\r\n  \"Skip\": 1,\r\n  \"Take\": 2,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/GetBatch/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/GetBatch/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4230,7 +4230,7 @@
 							"raw": "{\r\n  \"Skip\": 1,\r\n  \"Take\": 2,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/GetOffices",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/GetOffices",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4266,7 +4266,7 @@
 							"raw": "{\r\n  \"Skip\": 1,\r\n  \"Take\": 2,\r\n  \"Columns\": [\r\n    \"sample string 1\",\r\n    \"sample string 2\"\r\n  ],\r\n  \"Sort\": [\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Column\": \"sample string 1\",\r\n      \"Direction\": \"sample string 2\"\r\n    }\r\n  ],\r\n  \"FilteredColumns\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/SaveBatch",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/SaveBatch",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4302,7 +4302,7 @@
 							"raw": "{\r\n  \"ExpIndex\": 1,\r\n  \"ExpOffice\": {\r\n    \"OfficeIndex\": 1,\r\n    \"OfficeCode\": \"sample string 2\",\r\n    \"OfficeInternal\": true,\r\n    \"OfficeTitle\": \"sample string 4\",\r\n    \"OfficeName\": \"sample string 5\",\r\n    \"OfficeAddress\": \"sample string 6\",\r\n    \"OfficePhone\": \"sample string 7\",\r\n    \"OfficeFax\": \"sample string 8\",\r\n    \"OfficeEMail\": \"sample string 9\",\r\n    \"OfficePartnersLocal\": \"sample string 10\",\r\n    \"OfficePartnerSenior\": \"sample string 11\",\r\n    \"OfficePartnersOther\": \"sample string 12\",\r\n    \"OfficeConsultants\": \"sample string 13\",\r\n    \"OfficeOtherOffices\": \"sample string 14\",\r\n    \"OfficeEngnData\": \"sample string 15\",\r\n    \"OfficeHistData\": \"sample string 16\",\r\n    \"OfficeTransData\": \"sample string 17\",\r\n    \"OfficeExistData\": \"sample string 18\",\r\n    \"OfficeReportData\": \"sample string 19\",\r\n    \"OfficeSystem\": \"sample string 20\",\r\n    \"OfficeReporting\": true,\r\n    \"OfficeCreated\": \"2018-04-10T07:13:17.1113299-06:00\",\r\n    \"OfficeUpdated\": \"2018-04-10T07:13:17.1113299-06:00\",\r\n    \"OfficeUpdatedBy\": \"sample string 24\",\r\n    \"OfficeFolders\": \"sample string 25\",\r\n    \"OfficeRegion\": \"sample string 26\",\r\n    \"OfficeLocation\": \"sample string 27\",\r\n    \"OfficeURL\": \"sample string 28\",\r\n    \"OfficeActive\": true,\r\n    \"RowVer\": \"QEA=\"\r\n  },\r\n  \"ExpStaff\": {\r\n    \"StaffIndex\": 1,\r\n    \"StaffName\": \"sample string 2\",\r\n    \"StaffReference\": \"sample string 3\",\r\n    \"StaffCode\": \"sample string 4\",\r\n    \"StaffSurname\": \"sample string 5\",\r\n    \"StaffExtension\": \"sample string 6\",\r\n    \"StaffClientResponsible\": true,\r\n    \"StaffManager\": true,\r\n    \"StaffCategory\": \"sample string 9\",\r\n    \"StaffJobTitle\": \"sample string 10\",\r\n    \"StaffDepartment\": \"sample string 11\",\r\n    \"StaffUser\": \"sample string 12\",\r\n    \"StaffStarted\": \"2018-04-10\",\r\n    \"StaffEnded\": \"2018-04-10\",\r\n    \"StaffAutoPostTime\": true,\r\n    \"StaffRequireApproval\": true\r\n  },\r\n  \"ExpStatus\": \"sample string 2\",\r\n  \"ExpDate\": \"2018-04-10T07:13:17.1113299-06:00\",\r\n  \"ExpDesc\": \"sample string 4\",\r\n  \"ExpComments\": \"sample string 5\",\r\n  \"ExpUpdated\": \"2018-04-10T07:13:17.1113299-06:00\",\r\n  \"ExpUpdatedBy\": \"sample string 7\",\r\n  \"ExpApprovedOn\": \"2018-04-10T07:13:17.1113299-06:00\",\r\n  \"ExpApprovedBy\": 1\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/SaveBatch",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/SaveBatch",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4338,7 +4338,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/CompleteBatch/{id}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/CompleteBatch/{id}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4375,7 +4375,7 @@
 							"raw": "{\r\n  \"ExpIndex\": 1,\r\n  \"DeleteReceipts\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/AbandonBatch",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/AbandonBatch",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4411,7 +4411,7 @@
 							"raw": "{\r\n  \"ExpIndex\": 1,\r\n  \"DeleteReceipts\": true\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/EditBatch/{expenseindex}",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/EditBatch/{expenseindex}",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4448,7 +4448,7 @@
 							"raw": "{\r\n  \"IDs\": [\r\n    1,\r\n    2\r\n  ],\r\n  \"postDate\": 1\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/PostBatch",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/PostBatch",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4484,7 +4484,7 @@
 							"raw": "{\r\n  \"OfficeCode\": \"sample string 1\",\r\n  \"Description\": \"sample string 2\",\r\n  \"BatchDate\": \"2018-04-10T07:19:45.8783769-06:00\",\r\n  \"Comments\": \"sample string 4\",\r\n  \"CSVData\": {\r\n    \"DownloadId\": \"36aa1e66-c4e8-4d8c-944c-febd83c18e18\",\r\n    \"Thumbnail\": \"sample string 1\",\r\n    \"DataUri\": \"sample string 2\",\r\n    \"FileName\": \"sample string 3\",\r\n    \"ContentType\": \"sample string 4\"\r\n  },\r\n  \"HeaderMappings\": [\r\n    {\r\n      \"Code\": \"sample string 1\",\r\n      \"Desc\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Code\": \"sample string 1\",\r\n      \"Desc\": \"sample string 2\"\r\n    }\r\n  ]\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/ImportBatchPreview",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/ImportBatchPreview",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4520,7 +4520,7 @@
 							"raw": "{\r\n  \"OfficeCode\": \"sample string 1\",\r\n  \"Description\": \"sample string 2\",\r\n  \"BatchDate\": \"2018-04-10T07:20:35.9215394-06:00\",\r\n  \"Comments\": \"sample string 4\",\r\n  \"CSVData\": {\r\n    \"DownloadId\": \"f80fc454-1c8b-4f38-b82c-5616d1c459b9\",\r\n    \"Thumbnail\": \"sample string 1\",\r\n    \"DataUri\": \"sample string 2\",\r\n    \"FileName\": \"sample string 3\",\r\n    \"ContentType\": \"sample string 4\"\r\n  },\r\n  \"HeaderMappings\": [\r\n    {\r\n      \"Code\": \"sample string 1\",\r\n      \"Desc\": \"sample string 2\"\r\n    },\r\n    {\r\n      \"Code\": \"sample string 1\",\r\n      \"Desc\": \"sample string 2\"\r\n    }\r\n  ]\r\n}"
 						},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/PE/api/DisbursementBatch/ImportBatch",
+							"raw": "https://[PESERVERADDRESS]/PE/api/DisbursementBatch/ImportBatch",
 							"protocol": "https",
 							"host": [
 								"peupgrade",
@@ -4544,7 +4544,7 @@
 			"description": "",
 			"item": [
 				{
-					"name": "https://peupgrade.eksh.com/auth",
+					"name": "https://[PESERVERADDRESS]/auth",
 					"event": [
 						{
 							"listen": "test",
@@ -4604,11 +4604,11 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://peupgrade.eksh.com/auth",
+							"raw": "https://[PESERVERADDRESS]/auth",
 							"protocol": "https",
 							"host": [
-								"peupgrade",
-								"eksh",
+								"practiceengine_auth",
+								"practiceengine",
 								"com"
 							],
 							"path": [
