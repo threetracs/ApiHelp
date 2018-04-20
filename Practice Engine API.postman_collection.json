@@ -4048,7 +4048,7 @@
 			"description": "",
 			"item": [
 				{
-					"name": "https://peupgrade.eksh.com/auth",
+					"name": "Get Auth Token - Practice Engine Auth URL",
 					"event": [
 						{
 							"listen": "test",
@@ -4076,17 +4076,9 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://eksh-0113045.eksh.com/AuthAPI/api/PEAuth",
-							"protocol": "https",
+							"raw": "{{authurl}}",
 							"host": [
-								"eksh-0113045",
-								"eksh",
-								"com"
-							],
-							"path": [
-								"AuthAPI",
-								"api",
-								"PEAuth"
+								"{{authurl}}"
 							]
 						}
 					},
